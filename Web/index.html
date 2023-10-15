@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenWorldUrgency</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+</head>
+
+<body class="overflow-x-hidden">
+    <div class="container mx-auto">
+        <header class="head">
+            <nav class="flex justify-between">
+                <div class="logo font-bold flex items-center text-color"><a href="#home"
+                        id="scrollToAbout">GreenWorldUrgency</a></div>
+                <ul class="navbar flex items-center">
+                    <li><a href="#home" id="scrollToAbout">Home</a></li>
+                    <li><a href="#about" id="scrollToAbout">About</a></li>
+                    <li><a href="#services" id="scrollToAbout">Services</a></li>
+                    <li><a href="#contactUs" id="scrollToAbout">Contact Us</a></li>
+                    <li> <button class="donate-button" id="openDonationModal">Donate</button></li>
+                </ul>
+            </nav>
+            <!-- Donation model-->
+            <div class="donation-modal" id="donationModal">
+                <div class="modal-content">
+                    <h2>Support Us</h2>
+                    <p>Your contribution helps us continue our work.</p>
+
+                    <!-- Donation form fields go here -->
+                    <label for="amount">Donation Amount:</label>
+                    <input type="text" id="amount" name="amount" placeholder="Enter amount" required>
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your email" required>
+
+                    <button type="submit">Donate</button>
+                    <button id="closeDonationModal">Close</button>
+                </div>
+            </div>
+
+        </header>
+        <main class="min-h-screen">
+            <section class="section1" id="home">
+                <div class="flex">
+                    <div class="topleft flex flex-col justify-center px-2">
+                        <h1 class="my-1 text-center">"Cool the Globe, Save Our Home."</h1>
+                        <p class="text-center">
+                            Global warming is an urgent global crisis driven by the excessive release of greenhouse
+                            gases
+                            into the atmosphere, primarily from human activities such as burning fossil fuels and
+                            deforestation. These gases trap heat, causing Earth's average temperature to rise steadily.
+                            The
+                            consequences are far-reaching, including more frequent and severe heatwaves, rising sea
+                            levels
+                            due to melting polar ice, disrupted weather patterns, and heightened risks to ecosystems and
+                            biodiversity. Vulnerable communities face food and water shortages, displacement, and
+                            increased
+                            climate-related disasters. To address this crisis, worldwide efforts are essential,
+                            emphasizing
+                            renewable energy adoption, sustainable practices, and carbon emissions reduction to secure a
+                            sustainable future for our planet.
+                        </p>
+                    </div>
+                    <div class="topright">
+                        <img src="warmming1.png" alt="Global warming">
+                    </div>
+                </div>
+            </section>
+
+            <section class="section2" id="about">
+                <h1 class="text-center my-2">About when Gobal warming happend</h1>
+                <p class="text-center my-2">
+                    Global warming, driven by increased greenhouse gas emissions, leads to rising temperatures on Earth.
+                    This results in melting polar ice, sea-level rise, extreme weather events, and disruptions to
+                    ecosystems. It poses severe threats to human health, food security, and the environment, demanding
+                    urgent action to mitigate its impacts.
+                </p>
+                <div class="boxes justify-center flex">
+                    <div class="box text-center">
+                        <h2 class="text-center my-2">Rising Temperatures.</h2>
+                        <figure>
+                            <img class="image-size image-padding" src="global.png" alt="">
+                            <figcaption class="img-caption">Global warming leads to an increase in average temperatures
+                                worldwide, causing heatwaves and
+                                prolonged periods of extreme heat.</figcaption>
+                        </figure>
+                    </div>
+                    <div class="box text-center">
+                        <h2 class="text-center my-2">Rising Sea Levels</h2>
+                        <figure>
+                            <img class="image-size" src="melting.png" alt="">
+                            <figcaption class="img-caption">Higher temperatures cause polar ice caps and glaciers to
+                                melt, contributing to rising sea levels, which can result in coastal flooding and the
+                                loss of coastal habitats.</figcaption>
+                        </figure>
+                    </div>
+                    <div class="box text-center">
+                        <h2 class="text-center my-2">Extreme Weather Events</h2>
+                        <figure>
+                            <img class="image-size image-padding" src="weather.png" alt="">
+                            <figcaption class="img-caption">Global warming is associated with an increase in the
+                                frequency and severity of extreme weather events such as hurricanes, droughts, and
+                                wildfires, which can have devastating impacts on communities and ecosystems.
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section2" id="services">
+                <h1 class="text-center my-2">Importent Services</h1>
+                <p class="text-center my-2">
+
+                    Services for global warming, like renewable energy, energy efficiency, and carbon offsetting, are
+                    vital in combating climate change. They reduce greenhouse gas emissions, promote sustainable
+                    practices, and transition us to a low-carbon future. These services play a critical role in
+                    addressing the urgent environmental challenges posed by global warming.
+                </p>
+                <div class="boxes justify-center flex">
+                    <div class="box text-center">
+                        <h2 class="text-center my-2">Renewable Energy Services</h2>
+                        <figure>
+                            <img class="image-size image-padding" src="Renewable.jpg" alt="">
+                            <figcaption class="img-caption">Transitioning to renewable energy sources like solar, wind,
+                                and hydropower is essential for reducing greenhouse gas emissions. Renewable energy
+                                services encompass the development, installation, and maintenance of renewable energy
+                                systems. By transitioning to clean energy, we can significantly reduce our reliance on
+                                fossil fuels.</figcaption>
+                        </figure>
+                    </div>
+                    <div class="box text-center">
+                        <h2 class="text-center my-2">Energy Efficiency Consulting</h2>
+                        <figure>
+                            <img class="image-size" src="Energy.png" alt="">
+                            <figcaption class="img-caption">Energy efficiency services help individuals, businesses, and
+                                governments reduce energy consumption and lower carbon emissions. Energy audits,
+                                retrofits, and the adoption of energy-efficient technologies are integral to improving
+                                energy efficiency in buildings, transportation, and industrial processes.</figcaption>
+                        </figure>
+                    </div>
+                    <div class="box text-center">
+                        <h2 class="text-center my-2">Carbon Trading</h2>
+                        <figure>
+                            <img class="image-size image-padding" src="carbon.jpg" alt="">
+                            <figcaption class="img-caption">Carbon offset services allow organizations and individuals
+                                to compensate for their carbon emissions by investing in projects that reduce or capture
+                                an equivalent amount of greenhouse gases. These projects include reforestation,
+                                afforestation, renewable energy initiatives, and methane capture.
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+            <section class="section3" id="contactUs">
+                <div class="contact-form ">
+                    <h2 class="text-center my-2">Contact Us</h2>
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            Copyright &copy; GreenWorldUrgency | All Right Reserve
+        </footer>
+
+    </div>
+    <!-- Donation Modal -->
+    <div class="donation-modal" id="donationModal">
+        <div class="modal-content">
+            <h2>Support Us</h2>
+            <p>Your contribution helps us continue our work.</p>
+
+            <!-- Donation form fields go here -->
+            <label for="amount">Donation Amount:</label>
+            <input type="text" id="amount" name="amount" placeholder="Enter amount" required>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required>
+
+            <button type="submit">Donate</button>
+            <button id="closeDonationModal">Close</button>
+        </div>
+    </div>
+
+    <!-- JavaScript to open and close the donation modal -->
+    <script>
+        // Get references to the modal and buttons
+        const donationModal = document.getElementById("donationModal");
+        const openDonationModalButton = document.getElementById("openDonationModal");
+        const closeDonationModalButton = document.getElementById("closeDonationModal");
+
+        // Open the modal when the "Donate" button is clicked
+        openDonationModalButton.addEventListener("click", () => {
+            donationModal.style.display = "block";
+        });
+
+        // Close the modal when the "Close" button is clicked
+        closeDonationModalButton.addEventListener("click", () => {
+            donationModal.style.display = "none";
+        });
+    </script>
+</body>
+
+</html>
